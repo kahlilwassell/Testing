@@ -102,11 +102,11 @@ This Python application provides an API for submitting, tracking, and retrieving
              "jobs": [
                  {
                      "job_id": "job-id-1",
-                     "job_details": "http://<your-base-url>/annotations/job-id-1"
+                     "job_details": "http://kjwassell-a4.ucmpcs.org:5000/annotations/job-id-1"
                  },
                  {
                      "job_id": "job-id-2",
-                     "job_details": "http://<your-base-url>/annotations/job-id-2"
+                     "job_details": "http://kjwassell-a4.ucmpcs.org:5000/annotations/job-id-2"
                  }
              ]
          }
@@ -165,7 +165,11 @@ This Python application provides an API for submitting, tracking, and retrieving
 
 ## How to Access
 I left a t4g.nano instance with ip 34.235.139.53 running with a tmux process set. The API is available for the above requests at.
-http://kjwassell-a4.ucmpcs.org:5000/annotations/
+
+ - http://kjwassell-a4.ucmpcs.org:5000/annotations/
+
 Here are example requests for both the list and the get job status by id endpoints.
-http://kjwassell-a4.ucmpcs.org:5000/annotations/
-http://kjwassell-a4.ucmpcs.org:5000/annotations/095a9590-1d83-407e-8ed6-a12fc10e01fe
+
+- http://kjwassell-a4.ucmpcs.org:5000/annotations/
+- http://kjwassell-a4.ucmpcs.org:5000/annotations/095a9590-1d83-407e-8ed6-a12fc10e01fe
+
